@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Selection</title>
+</head>
+<body>
+
+    <h1 id="main-heading">My Awesome Webpage</h1>
+
+    <div class="content-section">
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+    </div>
+
+    <ul>
+        <li class="list-item">Apples</li>
+        <li class="list-item">Oranges</li>
+        <li class="list-item">Bananas</li>
+    </ul>
+
+    <!-- Link the JavaScript file at the end of the body -->
+    <script>
+        const heading = document.querySelector('#content-section');
+const list = document.querySelector('ul');
+const listItem = document.querySelector('#list-items');
+console.log(heading);
+console.log(list);
+console.log(listItem);
+    </script>
+</body>
+</html>
